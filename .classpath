@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_171"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/pankajk6/Downloads/jersey-bundle-1.9.jar/jersey-bundle-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pankajk6/Downloads/org.json.jar/org.json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pankajk6/Downloads/javax.ws.rs-api-2.0.jar/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
