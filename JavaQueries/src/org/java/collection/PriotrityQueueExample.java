@@ -8,6 +8,7 @@ import java.util.PriorityQueue;
 import java.util.Set;
 import java.util.TreeMap;
 
+@SuppressWarnings("unchecked")
 public class PriotrityQueueExample{
 
 	public static void main(String args[]) {
