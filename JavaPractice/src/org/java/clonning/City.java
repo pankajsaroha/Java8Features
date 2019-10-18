@@ -1,6 +1,6 @@
 package org.java.clonning;
 
-public class City {
+public class City implements Cloneable {
 
 	private String name;
 	
