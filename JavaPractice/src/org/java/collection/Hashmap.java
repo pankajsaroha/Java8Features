@@ -50,7 +50,9 @@ public class Hashmap<K, V> implements MapTemp<K, V>{
 				}
 				temp = temp.next;
 			}
+			list.add(key, value, list);
 			keyset.add(key);
+			val.add(value);
 			list.add(key, value, list);
 		}
 		return true;
