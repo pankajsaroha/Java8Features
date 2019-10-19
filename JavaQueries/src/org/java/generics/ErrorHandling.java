@@ -22,14 +22,14 @@ public class ErrorHandling {
 	}
 
 	public boolean compareErrors(String actualMsg, String dynamicTemplate, String dyingFields) {
-		// TODO Auto-generated method stub
+		
 		String[] strList1 = actualMsg.split(" |\\,");
 		String[] strList2 = dynamicTemplate.split(" |\\,");
 		String[] strList3 = dyingFields.split(",");
 		int wordsInActualMsgs = 0;
 		Map<String, String> dynamicMap = getDynamicFeilds(actualMsg, dynamicTemplate, dyingFields);
 		if (dynamicMap != null) {
-			for (Map.Entry m : dynamicMap.entrySet()) {
+			for (Map.Entry<String, String> m : dynamicMap.entrySet()) {
 				int count = 0, i = 0;
 				String deadFields = m.getValue().toString();
 				String[] dynamicWords = deadFields.split(" |\\,");
