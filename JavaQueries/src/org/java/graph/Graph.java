@@ -7,6 +7,7 @@ public class Graph {
 	int V;
 	LinkedList<Integer> adjListArray[];
 	
+	@SuppressWarnings("unchecked")
 	Graph(int V) {
 		this.V = V;
 		adjListArray = new LinkedList[V];

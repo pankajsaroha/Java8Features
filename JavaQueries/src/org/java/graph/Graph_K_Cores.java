@@ -8,6 +8,7 @@ public class Graph_K_Cores {
 	int V;
 	LinkedList<Integer> adj[];
 	
+	@SuppressWarnings("unchecked")
 	Graph_K_Cores(int V) {
 		this.V = V;
 		adj = new LinkedList[V];

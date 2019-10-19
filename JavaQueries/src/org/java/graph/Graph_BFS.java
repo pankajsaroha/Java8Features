@@ -9,6 +9,7 @@ public class Graph_BFS {
 	private int V;
 	private LinkedList<Integer> adj[];
 	
+	@SuppressWarnings("unchecked")
 	public Graph_BFS(int v) {
 		V = v;
 		adj = new LinkedList[v];

@@ -9,6 +9,7 @@ public class Graph_Set {
 	int V;
 	Set<Integer> adjList[];
 	
+	@SuppressWarnings("unchecked")
 	Graph_Set(int V) {
 		this.V = V;
 		adjList = new Set[V];

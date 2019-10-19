@@ -1,7 +1,5 @@
 package org.java.graph;
 
-import java.util.LinkedList;
-
 public class Dijkstra {
 
 	int V;

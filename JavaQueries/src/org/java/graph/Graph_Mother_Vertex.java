@@ -8,6 +8,7 @@ public class Graph_Mother_Vertex {
 	int V;
 	LinkedList<Integer> adj[];
 	
+	@SuppressWarnings("unchecked")
 	Graph_Mother_Vertex(int V) {
 		this.V = V;
 		adj = new LinkedList[V];
@@ -65,7 +66,7 @@ public class Graph_Mother_Vertex {
 		graph.addEdge(graph, 5, 2);
 		graph.addEdge(graph, 6, 0);
 		
-		boolean visited[] = new boolean[V];
+		//boolean visited[] = new boolean[V];
 		//graph.DFSUtil(5, visited);
 		System.out.println("A mtoher vertex is "+graph.findMother());
 	}

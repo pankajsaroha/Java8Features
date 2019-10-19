@@ -10,6 +10,7 @@ public class Graph_Transitive_Closure {
 	ArrayList<Integer> adj[];
 	int tc[][];
 	
+	@SuppressWarnings("unchecked")
 	public Graph_Transitive_Closure(int V) {
 		this.V = V;
 		adj = new ArrayList[V];
