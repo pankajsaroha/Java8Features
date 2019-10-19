@@ -8,7 +8,6 @@ import java.util.PriorityQueue;
 import java.util.Set;
 import java.util.TreeMap;
 
-@SuppressWarnings("unchecked")
 public class PriotrityQueueExample{
 
 	public static void main(String args[]) {
@@ -50,7 +49,7 @@ public class PriotrityQueueExample{
 		tmap.put("A", "Ankit");
 		tmap.put("S", "Sakshi");
 		
-		Set set = tmap.entrySet();
+		Set<Map.Entry<String, String>> set = tmap.entrySet();
 		System.out.println("Tree Entry Set : "+set);
 		itr = set.iterator();
 		while(itr.hasNext()) {
