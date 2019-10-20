@@ -22,12 +22,13 @@ public class BinarySearch {
 		} else {
 			System.out.println("Element is not found");
 		}
+		in.close();
 	}
 
 	public int binarySearch(int arr[], int l, int h, int data) {
 
 		if (l <= h) {
-			int m = (l + h + 1) / 2;
+			int m = (h-l) / 2;
 			System.out.println("m :" + m);
 			if (arr[m] == data) {
 				return m;

@@ -21,5 +21,6 @@ public class LinearSearch {
 				break;
 			}
 		}
+		in.close();
 	}
 }

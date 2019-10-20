@@ -20,6 +20,7 @@ public class ExponentialSearch {
 		System.out.println((index < 0) ? 
 				"Element is not present in the array" :
 					"Element is present ar index " + index);
+		in.close();
 	}
 	
 	public static int exponentialSearch(int arr[], int n, int element) {

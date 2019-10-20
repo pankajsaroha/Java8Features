@@ -21,6 +21,7 @@ public class IntepolationSearch {
 		} else {
 			System.out.println("Element is at "+index);
 		}
+		in.close();
 	}
 	
 	public static int interpolationSearch(int arr[], int element, int l, int h) {
