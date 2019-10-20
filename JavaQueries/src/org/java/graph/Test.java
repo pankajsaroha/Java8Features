@@ -25,7 +25,7 @@ public class Test {
 		int wordsInActualMsgs = 0;
 		Map<String, String> dynamicMap = getDynamicFeilds(actualMsg, dynamicTemplate, dyingFields);
 		if (dynamicMap != null) {
-			for (Map.Entry m : dynamicMap.entrySet()) {
+			for (Map.Entry<String, String> m : dynamicMap.entrySet()) {
 				int count = 0, i = 0;
 				String deadFields = m.getValue().toString();
 				String[] dynamicWords = deadFields.split(" |\\,");
@@ -52,7 +52,7 @@ public class Test {
 			String[] strList2 = dynamicTemplate.split(" |\\,");
 			String[] strList3 = dynamicFields.split(",");
 			List<String> list3 = Arrays.asList(strList3);
-
+			System.out.println(list3);					//unnecessary line
 			List<String> list1 = Arrays.asList(strList1); // actual
 			List<String> list2 = Arrays.asList(strList2); // d1 d2
 			Map<String, String> dynamicValues = new HashMap<>();
@@ -109,7 +109,7 @@ public class Test {
 
 				}
 			}
-
+			System.out.println(count);					//unnecessary line
 			System.out.println(dynamicValues);
 			return dynamicValues;
 		} catch (Exception e) {
