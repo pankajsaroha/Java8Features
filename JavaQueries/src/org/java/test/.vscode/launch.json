@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CloningExample",
+            "request": "launch",
+            "mainClass": "org.java.clonning.CloningExample",
+            "projectName": "JavaPractice_c6bbd362"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CloningExa",
+            "request": "launch",
+            "mainClass": "org.java.clonning.CloningExa",
+            "projectName": "JavaPractice_c6bbd362"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "org.java.collection.Test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Revision",
+            "request": "launch",
+            "mainClass": "org.java.collection.Revision"
+        }
+    ]
+}

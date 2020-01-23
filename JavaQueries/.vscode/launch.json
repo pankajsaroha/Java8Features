@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "org.java.generics.Test",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PriotrityQueueExample",
+            "request": "launch",
+            "mainClass": "org.java.collection.PriotrityQueueExample",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CloningExample",
+            "request": "launch",
+            "mainClass": "org.java.cloning.CloningExample",
+            "projectName": "JavaPractice"
+        }
+    ]
+}
